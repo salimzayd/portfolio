@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Port.css"> 
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home-content">
+            <img src="./Assets/myimg.jpg" alt="Your Name" class="profile-photo"> 
+            <div class="bio">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hello! I'm Sayid Salim, a passionate web developer with experience in building dynamic web applications using the MERN stack. I enjoy creating responsive designs and ensuring a seamless user experience.</p>
+                <p>In my spare time, I love to learn new technologies and work on personal projects that challenge my skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+    </section>
+
+    <script>
+    
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
