@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Port.css"> 
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 </head>
 <body>
+    <script>
+        AOS.init();
+      </script>
+      
     <nav class="navbar">
         <div class="container">
             <div class="logo">My Portfolio</div>
@@ -25,11 +33,15 @@
 
     <section id="home">
         <div class="home-content">
-            <img src="./Assets/myimg.jpg" alt="Your Name" class="profile-photo"> 
-            <div class="bio">
+            <img src="./Assets/myimg.jpg" alt="Your Name" class="profile-photo" data-aos="fade-right"
+            data-aos-duration ="2000"> 
+            <div class="bio" style="color: white;">
                 <h1>Welcome to My Portfolio</h1>
                 <p>Hello! I'm Sayid Salim, a passionate web developer with experience in building dynamic web applications using the MERN stack. I enjoy creating responsive designs and ensuring a seamless user experience.</p>
                 <p>In my spare time, I love to learn new technologies and work on personal projects that challenge my skills.</p>
+            <button class="btn" data-aos="zoom-in-up" data-aos-duration="1000">Contact Me</button>
+            <button class="btn" data-aos="zoom-in-up" data-aos-duration="1000" style="margin-left: 10px;">Download CV</button>
+
             </div>
         </div>
     </section>
