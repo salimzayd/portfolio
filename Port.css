@@ -175,6 +175,42 @@ body {
     100% {background-position: 0 0;}
   }
   
+  /* About Section */
+#about {
+    padding: 50px;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.skills h3 {
+    margin-bottom: 20px;
+}
+
+.skills ul li:before {
+    content: "• ";
+    color: #00bcd4; /* Custom color for the bullet point */
+}
+
+.about-content p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 
 
 
