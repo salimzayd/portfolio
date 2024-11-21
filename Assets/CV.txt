@@ -1,0 +1,11 @@
+I am writing to express my interest in a Full Stack Developer position. With a strong foundation in the MERN stack and experience in building secure, responsive, and high-performing applications, I am excited to bring my skills and passion for development to a dynamic team.
+
+In my recent project, Food-Fleet, I improved transaction security through JWT-based authentication and increased payment reliability with Razorpay integration. Another project, SHOE VISTA, an e-commerce platform, achieved reduction in query response times using MongoDB and boosted user satisfaction with a responsive React.js interface.
+
+These experiences have strengthened my ability to deliver user-focused solutions and collaborate effectively across teams. I am eager to discuss how my skills and experience align with your company's goals.
+
+Thank you for considering my application.
+
+Sincerely,
+Sayid Mohamed Salim
+8943725563

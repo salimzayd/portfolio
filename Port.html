@@ -6,14 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="Port.css"> 
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 </head>
 <body>
     <script>
         AOS.init();
-      </script>
+    </script>
       
     <nav class="navbar">
         <div class="container">
@@ -21,6 +20,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
             <div class="menu-toggle">
@@ -33,50 +33,79 @@
 
     <section id="home">
         <div class="home-content">
-            <img src="./Assets/myimg.jpg" alt="Your Name" class="profile-photo" data-aos="fade-right"
-            data-aos-duration ="2000"> 
+            <img src="./Assets/sayidsalim.jpg" alt="Your Name" class="profile-photo" data-aos="fade-right"
+            data-aos-duration="2000"> 
             <div class="bio" style="color: white;">
                 <h1>Welcome to My Portfolio</h1>
                 <p>Hello! I'm Sayid Salim, a passionate web developer with experience in building dynamic web applications using the MERN stack. I enjoy creating responsive designs and ensuring a seamless user experience.</p>
                 <p>In my spare time, I love to learn new technologies and work on personal projects that challenge my skills.</p>
-            <button class="btn" data-aos="zoom-in-up" data-aos-duration="1000">Contact Me</button>
-            <button class="btn" data-aos="zoom-in-up" data-aos-duration="1000" style="margin-left: 10px;">Download CV</button>
-
+                <button class="btn" data-aos="zoom-in-up" data-aos-duration="1000">Contact Me</button>
+                <button class="btn" data-aos="zoom-in-up" data-aos-duration="1000" style="margin-left: 10px;">Download CV</button>
             </div>
         </div>
     </section>
 
-    <section id="about">
-        <div class="about-content">
-            <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
-            <p data-aos="fade-up" data-aos-duration="1500" style="color: white;">
-                I am a web developer with a passion for creating modern, responsive web applications. My expertise lies in full-stack development, particularly with the MERN stack (MongoDB, Express.js, React.js, and Node.js).
-            </p>
-    
-            <div class="skills">
-                <h3 data-aos="fade-right" data-aos-duration="1500">Skills</h3>
-                <ul data-aos="fade-left" data-aos-duration="1500">
-                    <li>HTML5 & CSS3</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>MongoDB</li>
-                    <li>Responsive Design</li>
-                    <li>Git & GitHub</li>
-                    <li>RESTful APIs</li>
-                    <li>Material-UI (MUI)</li>
-                </ul>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skill-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>React js<span>80%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Node js<span>70%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>60%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Express js<span>60%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Mongodb<span>60%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Problem Solving <span>60%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Communication<span>80%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Team Collabaration<span>70%</span></h3>
+                            <div class="bar"> <span></span></div>
+                        </div>  
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    
+
     <section id="contact">
         <h2>Contact Me</h2>
     </section>
 
     <script>
-    
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
 
